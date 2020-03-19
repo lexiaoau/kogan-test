@@ -47,8 +47,9 @@ cubicWeightArray = [];
         if(  cubicWeightArray.length < 1 ) {
             throw new Error('No valid data found.');
         }
-        const average = sum /  cubicWeightArray.length ;
-        console.log('Average cubic weight for all products in the "Air Conditioners" category is: ', average );
+        let average = sum /  cubicWeightArray.length ;
+        average = Math.round(  average  * 100 ) / 100   + '';
+        console.log('Average cubic weight for all products in the "Air Conditioners" category is: ', average, 'KG.' );
 
     } catch (err) {
         console.error('Error: ' , err , '. Program exit due to error.');
