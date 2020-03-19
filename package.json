@@ -1,0 +1,17 @@
+{
+  "name": "kogan-test",
+  "version": "0.0.1",
+  "description": " find the average cubic weight for all products in the \"Air Conditioners\" category",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Le Xiao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
